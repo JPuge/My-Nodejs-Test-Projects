@@ -63,7 +63,7 @@ $(document).ready(function() {
     
     socket.onclose = function() {
         disableMovement();
-	console.log("Connection has died!");
+	console.log("Connection died!");
     }
     
     socket.onmessage = function(msg) {
